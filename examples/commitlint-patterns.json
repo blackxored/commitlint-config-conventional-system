@@ -1,0 +1,25 @@
+{
+  "patterns": {
+    "system": [
+      "build",
+      "deps",
+      "packaging",
+      "release"
+    ],
+    "packages": [
+      "core",
+      "native",
+      "desktop",
+      "web"
+    ],
+    "components": {
+      "auth": "Authentication, login, OAuth, etc.",
+      "forms": "General user input, forms, etc.",
+      "navigation": "Navigation, history and routing.",
+      "networking": "Network-related code, connectivity checks, offline persistence, etc.",
+      "notifications": "Notification code, in-app notifications, push notifications, etc",
+      "profile": "User profile",
+      "settings": "Settings and preferences"
+    }
+  }
+}
