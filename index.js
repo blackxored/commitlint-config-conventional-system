@@ -5,7 +5,9 @@ const { flatten, keys, mapObjIndexed, merge } = require('ramda');
 
 const { patterns } = JSON.parse(
   fs.readFileSync(
-    path.resolve(process.cwd(), '.commitlint-patterns.json'),
+    process.env.NODE_ENV === 'test'
+      ? './__tests__/.commitlint-patterns.json'
+      : path.resolve(process.cwd(), '.commitlint-patterns.json'),
     'utf-8',
   ),
 );
