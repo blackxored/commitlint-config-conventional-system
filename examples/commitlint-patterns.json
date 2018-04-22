@@ -3,7 +3,7 @@
     "system": [
       "build",
       "deps",
-      "packaging",
+      "package",
       "release"
     ],
     "packages": [
