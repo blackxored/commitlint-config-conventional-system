@@ -1,5 +1,7 @@
 # commitlint-config-conventional-system
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/blackxored/commitlint-config-conventional-system.svg)](https://greenkeeper.io/)
+
 > Commitlint config for conventional system extensions for scopes and more
 
 [![Semantically Released][semantic-release-badge]][semantic-release]
