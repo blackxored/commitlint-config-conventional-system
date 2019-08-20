@@ -41,7 +41,7 @@
     "babel-eslint": "^8.2.3",
     "babel-jest": "23.0.1",
     "commitizen": "^2.9.6",
-    "eslint": "^4.6.1",
+    "eslint": "^6.2.1",
     "eslint-config-airbnb-base": "^12.1.0",
     "eslint-config-prettier": "^2.4.0",
     "eslint-plugin-fp": "^2.3.0",
